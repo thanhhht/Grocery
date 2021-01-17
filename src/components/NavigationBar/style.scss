@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding: 20px 30px;
   &.sticky {
+    background: #fff;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px;
   }
   &__item {

@@ -8,6 +8,10 @@ function App() {
       <NavigationBar />
       <Header />
       <OfferSection />
+      <main className="main-content">
+        <div className="side-bar"></div>
+        <div className="content"></div>
+      </main>
     </>
   );
 }
