@@ -1,0 +1,21 @@
+.categories {
+    padding-right: 5px;
+    &__inner {
+        padding-left: 50px;
+        padding-right: 20px;
+        height: calc(100vh - 90px);
+        overflow: hidden auto;
+    }
+    ::-webkit-scrollbar {
+        width: 2px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}

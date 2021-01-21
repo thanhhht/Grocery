@@ -1,5 +1,8 @@
 .offer{
+    position: relative;
     padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px;
+    z-index: 1;
     &__swiper {
         .swiper-slide {
             padding: 0 15px;
