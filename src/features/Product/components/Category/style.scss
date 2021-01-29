@@ -5,11 +5,14 @@
     .expand svg {
       transform: rotate(90deg);
     }
+    .category__content {
+      color: #009e7f;
+    }
     .category__sub {
       max-height: 500px;
       .category__sub-content {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(150px);
         @for $i from 0 through 9 {
           &:nth-child(#{$i + 1}) {
             $delayTime: 0.06 * $i;
@@ -55,7 +58,7 @@
       margin-bottom: 10px;
       @for $i from 0 through 9 {
         &:nth-child(#{10 - $i}) {
-          $delayTime: 0.04 * $i;
+          $delayTime: 0.06 * $i;
           animation: fadeOutLeft 0.2s linear forwards;
           animation-delay: #{$delayTime}s;
         }
@@ -79,7 +82,7 @@
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(150px);
   }
   100% {
     opacity: 1;
@@ -94,6 +97,6 @@
   }
   100% {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(150px);
   }
 }
