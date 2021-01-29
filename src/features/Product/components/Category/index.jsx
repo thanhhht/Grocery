@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import { ReactComponent as ArrowRightIcon } from '../../../../images/icons/arrow-right.svg';
 import { ReactComponent as AppleIcon } from '../../../../images/icons/apple.svg';
@@ -42,13 +42,17 @@ export default function Category(props) {
         return <AppleIcon />;
     }
   };
+  const [isShowSub, setIsShowSub] = useState(false);
+  function toggleSubMenu() {
+    setIsShowSub(!isShowSub);
+  }
   return (
-    <div className="category">
+    <div className={isShowSub ? "category show-sub" : "category"}>
       <div className="category__content">
         <div className="category__icon">{renderIcon(icon)}</div>
         <span className="category__name">{name}</span>
-        <button className="expand">
-          <ArrowRightIcon />
+        <button className="expand" onClick={() => toggleSubMenu()}>
+          <ArrowRightIcon /> 
         </button>
       </div>
       <div className="category__sub">

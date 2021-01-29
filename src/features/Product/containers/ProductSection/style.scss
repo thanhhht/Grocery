@@ -1,0 +1,18 @@
+.main-content {
+  display: flex;
+  .side-bar {
+    background: #fff;
+    width: 280px;
+    padding-top: 45px;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  .content {
+    background: #f7f7f7;
+    width: calc(100% - 280px);
+    height: auto;
+    min-height: 100vh;
+    padding: 30px 30px 50px;
+  }
+}

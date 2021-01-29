@@ -1,9 +1,10 @@
 import React from 'react';
 import Categories from '../../components/Categories';
+import ProductList from '../../components/ProductList';
 
 import './style.scss';
 
-export default function Product() {
+export default function ProductSection() {
   const categories = {
     data: [
       {
@@ -287,7 +288,9 @@ export default function Product() {
       <div className="side-bar">
         <Categories categories={categories.data} />
       </div>
-      <div className="content"></div>
+      <div className="content">
+        <ProductList/>
+      </div>
     </main>
   );
 }

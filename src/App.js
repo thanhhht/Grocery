@@ -1,7 +1,7 @@
-import Header from './components/Header/index.jsx';
-import NavigationBar from './components/NavigationBar/index.jsx';
-import OfferSection from './features/Offer/OfferSection/index.jsx';
-import Product from './features/Product/containers/Product/index.jsx';
+import Header from './components/Header';
+import NavigationBar from './components/NavigationBar';
+import OfferSection from './features/Offer/OfferSection';
+import ProductSection from './features/Product/containers/ProductSection';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <NavigationBar />
       <Header />
       <OfferSection />
-      <Product />
+      <ProductSection />
     </>
   );
 }
