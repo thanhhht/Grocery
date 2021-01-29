@@ -6,6 +6,15 @@ export default function ProductList() {
   return (
     <div className="product-list">
       <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
+      <Product/>
     </div>
   );
 }
