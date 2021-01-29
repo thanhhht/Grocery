@@ -16,7 +16,9 @@ import './style.scss';
 
 export default function Category(props) {
   const { name, icon, sub } = props;
-  const renderIcon = (icon) => {
+  const [isShowSub, setIsShowSub] = useState(false);
+  const subMenuStyle = sub.length > 3 ? {transition: 'max-height 0.6s ease'} : {transition: 'max-height 0.4s ease'};
+  function renderIcon(icon) {
     switch (icon) {
       case 'apple':
         return <AppleIcon />;
@@ -42,7 +44,6 @@ export default function Category(props) {
         return <AppleIcon />;
     }
   };
-  const [isShowSub, setIsShowSub] = useState(false);
   function toggleSubMenu() {
     setIsShowSub(!isShowSub);
   }

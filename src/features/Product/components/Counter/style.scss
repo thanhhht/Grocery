@@ -1,0 +1,21 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  color: #fff;
+  background: #009e7f;
+  border-radius: 999px;
+  overflow: hidden;
+  width: 104px;
+  height: 36px;
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 36px;
+    color: #fff;
+  }
+}
