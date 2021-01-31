@@ -1,9 +1,16 @@
 .categories {
+    padding-top: 45px;
     padding-right: 5px;
+    &.fixed {
+        padding-top: 25px;
+        position: fixed;
+        top: 90px;
+        left: 0;
+    }
     &__inner {
         padding-left: 50px;
         padding-right: 20px;
-        height: calc(100vh - 90px);
+        height: calc(100vh - 100px);
         overflow: hidden auto;
     }
     ::-webkit-scrollbar {
