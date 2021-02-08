@@ -1,6 +1,5 @@
 import React from 'react';
-import { ReactComponent as CartIcon } from '../../../../images/icons/cart.svg';
-import Counter from '../Counter';
+import WrapCounter from '../WrapCounter';
 import './style.scss';
 
 export default function Product() {
@@ -19,11 +18,7 @@ export default function Product() {
               <strike className="product__price--discounted">$2</strike>
               <div className="product__price">$1.5</div>
             </div>
-            <Counter/>
-            {/* <button className="add-to-cart">
-              <CartIcon />
-              <span>Cart</span>
-            </button> */}
+            <WrapCounter/>
           </div>
         </div>
       </div>
