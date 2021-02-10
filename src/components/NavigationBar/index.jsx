@@ -10,7 +10,7 @@ export default function NavigationBar() {
     <div className="sticky-outer-wrapper">
       <div className="sticky-inner-wrapper">
         <div className="navigation--mobile"></div>
-        <div className="navigation sticky">
+        <div className="navigation">
           <div className="navigation__left">
             <div className="logo">
               <img src={logo} alt="" />
