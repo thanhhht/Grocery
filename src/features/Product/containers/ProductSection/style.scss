@@ -1,8 +1,13 @@
 .main-content {
   display: flex;
+  position: relative;
+  z-index: 2;
   .side-bar {
     background: #fff;
     width: 280px;
+    @media (max-width: 990px) {
+      display: none;
+    }
   }
   .content {
     background: #f7f7f7;
@@ -10,5 +15,8 @@
     height: auto;
     min-height: 100vh;
     padding: 30px 30px 50px;
+    @media (max-width: 990px) {
+      width: 100%;
+    }
   }
 }

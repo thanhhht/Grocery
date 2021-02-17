@@ -9,7 +9,13 @@ export default function NavigationBar() {
   return (
     <div className="sticky-outer-wrapper">
       <div className="sticky-inner-wrapper">
-        <div className="navigation--mobile"></div>
+        <div className="navigation--mobile">
+          <div className="burger">burger</div>
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
+          <button className="search"></button>
+        </div>
         <div className="navigation">
           <div className="navigation__left">
             <div className="logo">
