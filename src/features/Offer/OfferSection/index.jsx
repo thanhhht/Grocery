@@ -11,11 +11,16 @@ export default function OfferSection() {
     <div className="offer">
       <Swiper
         className="offer__swiper"
-        slidesPerView={3}
+        slidesPerView={2}
         spaceBetween={0}
         autoplay={{ delay: 5000 }}
         navigation
         loop
+        breakpoints={{
+          990: {
+            slidesPerView: 3
+          }
+        }}
       >
         <SwiperSlide>
           <img src="./images/offer-1.png" alt="" />

@@ -1,43 +1,45 @@
-.offer{
-    position: relative;
-    padding: 60px;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px;
-    z-index: 1;
-    &__swiper {
-        .swiper-slide {
-            padding: 0 15px;
-            img {
-                max-width: 100%;
-            }
-        }
-        .swiper-button-prev,
-        .swiper-button-next
-        {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            background: #fff;
-            border-radius: 50%;
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
-            &::after {
-                content: "";
-                // background: url(../../../images/icons/arrow.svg);
-                background-color: #009e7f;
-                mask: url(../../../images/icons/arrow.svg);
-                width: 20px;
-                height: 20px;
-            }
-        }
-        .swiper-button-prev {
-            left: 2px;
-        }
-        .swiper-button-next {
-            right: 2px;
-            &::after {
-                transform: scale(-1);
-            }
-        }
+.offer {
+  position: relative;
+  padding: 60px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px;
+  z-index: 1;
+  @media (max-width: 990px) {
+    padding: 15px;
+  }
+  &__swiper {
+    .swiper-slide {
+      padding: 0 15px;
+      img {
+        max-width: 100%;
+      }
     }
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+      &::after {
+        content: '';
+        // background: url(../../../images/icons/arrow.svg);
+        background-color: #009e7f;
+        mask: url(../../../images/icons/arrow.svg);
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .swiper-button-prev {
+      left: 2px;
+    }
+    .swiper-button-next {
+      right: 2px;
+      &::after {
+        transform: scale(-1);
+      }
+    }
+  }
 }

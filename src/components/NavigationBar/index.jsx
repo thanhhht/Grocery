@@ -10,11 +10,17 @@ export default function NavigationBar() {
     <div className="sticky-outer-wrapper">
       <div className="sticky-inner-wrapper">
         <div className="navigation--mobile">
-          <div className="burger">burger</div>
+          <div className="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div className="logo">
             <img src={logo} alt="" />
           </div>
-          <button className="search"></button>
+          <button className="search">
+            <SearchIcon/>
+          </button>
         </div>
         <div className="navigation">
           <div className="navigation__left">
