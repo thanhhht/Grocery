@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
+import FilterBar from './features/Filter/container/FilterBar';
 import OfferSection from './features/Offer/OfferSection';
 import ProductSection from './features/Product/containers/ProductSection';
 
@@ -32,6 +33,7 @@ function App() {
       <NavigationBar />
       <Header />
       <OfferSection />
+      <FilterBar/>
       <ProductSection />
     </>
   );

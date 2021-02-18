@@ -1,0 +1,16 @@
+.filter-bar {
+  @media (min-width: 991px) {
+    display: none;
+  }
+  display: flex;
+  padding: 10px 20px 30px;
+  .filter-category {
+    font-weight: bold;
+  }
+  .filter {
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #009e7f;
+  }
+}

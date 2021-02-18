@@ -11,14 +11,17 @@ export default function OfferSection() {
     <div className="offer">
       <Swiper
         className="offer__swiper"
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={0}
         autoplay={{ delay: 5000 }}
         navigation
         loop
         breakpoints={{
-          990: {
+          1025: {
             slidesPerView: 3
+          },
+          465: {
+            slidesPerView: 2
           }
         }}
       >

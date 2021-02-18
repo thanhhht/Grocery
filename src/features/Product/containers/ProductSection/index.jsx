@@ -290,6 +290,7 @@ export default function ProductSection() {
       </div>
       <div className="content">
         <ProductList/>
+        <button className="load-more">Load More</button>
       </div>
     </main>
   );
