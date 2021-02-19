@@ -9,7 +9,8 @@ export default function Header() {
       <div className="header">
         <div className="header__img"></div>
         <div className="header__content">
-          <h2 className="header__title">Groceries Delivered in 90 Minute</h2>
+          {/* <h2 className="header__title">Groceries Delivered in 90 Minute</h2> */}
+          <h2 className="header__title">Dkm chúng mày</h2>
           <p className="header__description">
             Get your healthy foods & snacks delivered at your doorsteps all day everyday
           </p>
