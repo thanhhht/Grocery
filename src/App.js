@@ -10,8 +10,7 @@ function App() {
     const stickyNav = document.querySelector('.sticky-inner-wrapper');
     const categories = document.querySelector('.categories');
     const offsetTopNav = document.querySelector('.offer').offsetTop - 100;
-    const offsetTopCat = document.querySelector('.main-content').offsetTop;
-    console.log(offsetTopCat, offsetTopNav);
+    const offsetTopCat = document.querySelector('.main-content').offsetTop + 150;
     function toggleSticky(scrollY, offsetTop, ele) {
       ele.classList.toggle('sticky', scrollY >= offsetTop);
     }
