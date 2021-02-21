@@ -19,7 +19,7 @@ export default function NavigationBar() {
             <img src={logo} alt="" />
           </div>
           <button className="search">
-            <SearchIcon/>
+            <SearchIcon />
           </button>
         </div>
         <div className="navigation">
