@@ -286,9 +286,26 @@ export default function ProductSection() {
   // };
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    axios.get('http://localhost:3004/categories')
+    axios
+      .get('http://localhost:3004/categories')
       .then((res) => {
         setCategories(res.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+    axios
+      .get('http://localhost:3004/products')
+      .then((res) => {
+        const new_data = res.data.map((data) => {
+          const { author, __typename, salePrice, type, gallery, ...y } = data;
+          const cate = [y.categories[0].id, y.categories[1].id];
+          y.categories = cate;
+          return y;
+        });
+        const leng = JSON.stringify(new_data);
+        console.log(leng);
       })
       .catch((error) => {
         console.error(error);
