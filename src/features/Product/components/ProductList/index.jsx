@@ -2,29 +2,12 @@ import React from 'react';
 import Product from '../Product';
 import './style.scss';
 
-export default function ProductList() {
+export default function ProductList({ productList }) {
   return (
     <div className="product-list">
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
+      {productList.map((product) => (
+        <Product product={product} />
+      ))}
     </div>
   );
 }

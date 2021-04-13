@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createServer } from './server';
 
-createServer();
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -1,266 +1,266 @@
 {
     "categories": [
     {
-        "id": "cate01",
+        "id": 1,
         "name": "Fruits & Vegetables",
         "icon": "apple",
         "sub": [
         {
-            "id": "catesub101",
+            "id": 2,
             "name": "Fruits"
         },
         {
-            "id": "catesub102",
+            "id": 3,
             "name": "Vegetables"
         }]
     },
     {
-        "id": "cate02",
+        "id": 4,
         "name": "Meat & Fish",
         "icon": "meat",
         "sub": [
         {
-            "id": "catesub201",
+            "id": 5,
             "name": "Meat"
         },
         {
-            "id": "catesub202",
+            "id": 6,
             "name": "Fish"
         }]
     },
     {
-        "id": "cate03",
+        "id": 7,
         "name": "Snacks",
         "icon": "coffee",
         "sub": [
         {
-            "id": "catesub301",
+            "id": 8,
             "name": "Biscuits"
         },
         {
-            "id": "catesub302",
+            "id": 9,
             "name": "Chocolates"
         },
         {
-            "id": "catesub303",
+            "id": 10,
             "name": "Crisps"
         },
         {
-            "id": "catesub304",
+            "id": 11,
             "name": "Noodles"
         },
         {
-            "id": "catesub305",
+            "id": 12,
             "name": "Nuts"
         },
         {
-            "id": "catesub306",
+            "id": 13,
             "name": "Pasta"
         },
         {
-            "id": "catesub307",
+            "id": 14,
             "name": "Sauce"
         },
         {
-            "id": "catesub308",
+            "id": 15,
             "name": "Soup"
         }]
     },
     {
-        "id": "cate04",
+        "id": 16,
         "name": "Pet Care",
         "icon": "food",
         "sub": [
         {
-            "id": "catesub401",
+            "id": 17,
             "name": "Cat Food"
         },
         {
-            "id": "catesub402",
+            "id": 18,
             "name": "Dog Food"
         },
         {
-            "id": "catesub403",
+            "id": 19,
             "name": "Kitten Food"
         },
         {
-            "id": "catesub404",
+            "id": 20,
             "name": "Pet Accessories"
         }]
     },
     {
-        "id": "cate05",
+        "id": 21,
         "name": "Home & Cleaning",
         "icon": "clean",
         "sub": [
         {
-            "id": "catesub501",
+            "id": 22,
             "name": "Air Freshner"
         },
         {
-            "id": "catesub502",
+            "id": 23,
             "name": "Cleaning Products"
         },
         {
-            "id": "catesub503",
+            "id": 24,
             "name": "Dishwasher"
         },
         {
-            "id": "catesub504",
+            "id": 25,
             "name": "Kitchen Accessories"
         },
         {
-            "id": "catesub505",
+            "id": 26,
             "name": "Laundry"
         },
         {
-            "id": "catesub506",
+            "id": 27,
             "name": "Pet Control"
         }]
     },
     {
-        "id": "cate06",
+        "id": 28,
         "name": "Dairy",
         "icon": "bottle",
         "sub": [
         {
-            "id": "catesub601",
+            "id": 29,
             "name": "Butter"
         },
         {
-            "id": "catesub602",
+            "id": 30,
             "name": "Egg"
         },
         {
-            "id": "catesub603",
+            "id": 31,
             "name": "Milk"
         },
         {
-            "id": "catesub604",
+            "id": 32,
             "name": "Milk Cream"
         },
         {
-            "id": "catesub605",
+            "id": 33,
             "name": "Powder Milk"
         },
         {
-            "id": "catesub606",
+            "id": 34,
             "name": "Yogourt"
         }]
     },
     {
-        "id": "cate07",
+        "id": 35,
         "name": "Cooking",
         "icon": "cooker",
         "sub": [
         {
-            "id": "catesub701",
+            "id": 36,
             "name": "Oil"
         },
         {
-            "id": "catesub702",
+            "id": 37,
             "name": "Rice"
         },
         {
-            "id": "catesub703",
+            "id": 38,
             "name": "Salt & Sugar"
         },
         {
-            "id": "catesub704",
+            "id": 39,
             "name": "Spices"
         }]
     },
     {
-        "id": "cate08",
+        "id": 40,
         "name": "Breakfast",
         "icon": "cake",
         "sub": [
         {
-            "id": "catesub801",
+            "id": 41,
             "name": "Bread"
         },
         {
-            "id": "catesub802",
+            "id": 42,
             "name": "Cereal"
         },
         {
-            "id": "catesub803",
+            "id": 43,
             "name": "Honey"
         },
         {
-            "id": "catesub804",
+            "id": 44,
             "name": "Jam"
         },
         {
-            "id": "catesub805",
+            "id": 45,
             "name": "Mayonnaise"
         },
         {
-            "id": "catesub806",
+            "id": 46,
             "name": "Oats"
         }]
     },
     {
-        "id": "cate09",
+        "id": 47,
         "name": "Beverage",
         "icon": "glass",
         "sub": [
         {
-            "id": "catesub901",
+            "id": 48,
             "name": "Coffee"
         },
         {
-            "id": "catesub902",
+            "id": 49,
             "name": "Energy Drink"
         },
         {
-            "id": "catesub903",
+            "id": 50,
             "name": "Juice"
         },
         {
-            "id": "catesub904",
+            "id": 51,
             "name": "Fizzy Drinks"
         },
         {
-            "id": "catesub905",
+            "id": 52,
             "name": "Syrup & Powder"
         },
         {
-            "id": "catesub906",
+            "id": 53,
             "name": "Tea"
         },
         {
-            "id": "catesub907",
+            "id": 54,
             "name": "Water"
         }]
     },
     {
-        "id": "cate10",
+        "id": 55,
         "name": "Beauty & Health",
         "icon": "mirror",
         "sub": [
         {
-            "id": "catesub1001",
+            "id": 56,
             "name": "Bath"
         },
         {
-            "id": "catesub1002",
+            "id": 57,
             "name": "Cream"
         },
         {
-            "id": "catesub1003",
+            "id": 58,
             "name": "Deodorant"
         },
         {
-            "id": "catesub1004",
+            "id": 59,
             "name": "Face Care"
         },
         {
-            "id": "catesub1005",
+            "id": 60,
             "name": "Oral Care"
         },
         {
-            "id": "catesub1006",
+            "id": 61,
             "name": "Shaving Needs"
         }]
     }],
