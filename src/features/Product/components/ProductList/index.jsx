@@ -6,7 +6,7 @@ export default function ProductList({ productList }) {
   return (
     <div className="product-list">
       {productList.map((product) => (
-        <Product product={product} />
+        <Product key={product.id} product={product} />
       ))}
     </div>
   );
