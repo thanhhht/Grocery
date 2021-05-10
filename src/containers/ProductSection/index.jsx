@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Categories from '../../components/Categories';
 import ProductList from '../../components/ProductList';
-import categoryApi from '../../../../api/categoryApi';
-import productApi from '../../../../api/productApi';
+import categoryApi from '../../api/categoryApi';
+import productApi from '../../api/productApi';
 import './style.scss';
 
 export default function ProductSection() {
@@ -32,7 +32,6 @@ export default function ProductSection() {
     fetchCategoryList();
     fetchProductList();
   }, []);
-  console.log(productList);
   return (
     <main className="main-content">
       <div className="side-bar">

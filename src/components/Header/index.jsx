@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchField from '../../features/Search/components/SearchField';
-import { ReactComponent as SearchIcon } from '../../images/icons/search.svg';
+import SearchField from '../SearchField';
+import { ReactComponent as SearchIcon } from '../../assets/images/icons/search.svg';
 import './style.scss';
 
 export default function Header() {

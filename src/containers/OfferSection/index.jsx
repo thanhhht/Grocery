@@ -18,11 +18,11 @@ export default function OfferSection() {
         loop
         breakpoints={{
           1025: {
-            slidesPerView: 3
+            slidesPerView: 3,
           },
           465: {
-            slidesPerView: 2
-          }
+            slidesPerView: 2,
+          },
         }}
       >
         <SwiperSlide>

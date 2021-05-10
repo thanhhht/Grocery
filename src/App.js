@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
-import FilterBar from './features/Filter/container/FilterBar';
-import OfferSection from './features/Offer/OfferSection';
-import ProductSection from './features/Product/containers/ProductSection';
+import OfferSection from './containers/OfferSection';
+import FilterBar from './containers/FilterBar';
+import ProductSection from './containers/ProductSection';
 
 function App() {
   useEffect(() => {
@@ -32,7 +32,7 @@ function App() {
       <NavigationBar />
       <Header />
       <OfferSection />
-      <FilterBar/>
+      <FilterBar />
       <ProductSection />
     </>
   );

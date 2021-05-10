@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { ReactComponent as ArrowRightIcon } from '../../../../images/icons/arrow-right.svg';
-import { ReactComponent as AppleIcon } from '../../../../images/icons/apple.svg';
-import { ReactComponent as MeatIcon } from '../../../../images/icons/meat.svg';
-import { ReactComponent as CoffeeIcon } from '../../../../images/icons/coffee.svg';
-import { ReactComponent as FoodIcon } from '../../../../images/icons/food.svg';
-import { ReactComponent as CleanIcon } from '../../../../images/icons/clean.svg';
-import { ReactComponent as BottleIcon } from '../../../../images/icons/bottle.svg';
-import { ReactComponent as CookerIcon } from '../../../../images/icons/cooker.svg';
-import { ReactComponent as CakeIcon } from '../../../../images/icons/cake.svg';
-import { ReactComponent as GlassIcon } from '../../../../images/icons/glass.svg';
-import { ReactComponent as MirrorIcon } from '../../../../images/icons/mirror.svg';
+import { ReactComponent as ArrowRightIcon } from '../../assets/images/icons/arrow-right.svg';
+import { ReactComponent as AppleIcon } from '../../assets/images/icons/apple.svg';
+import { ReactComponent as MeatIcon } from '../../assets/images/icons/meat.svg';
+import { ReactComponent as CoffeeIcon } from '../../assets/images/icons/coffee.svg';
+import { ReactComponent as FoodIcon } from '../../assets/images/icons/food.svg';
+import { ReactComponent as CleanIcon } from '../../assets/images/icons/clean.svg';
+import { ReactComponent as BottleIcon } from '../../assets/images/icons/bottle.svg';
+import { ReactComponent as CookerIcon } from '../../assets/images/icons/cooker.svg';
+import { ReactComponent as CakeIcon } from '../../assets/images/icons/cake.svg';
+import { ReactComponent as GlassIcon } from '../../assets/images/icons/glass.svg';
+import { ReactComponent as MirrorIcon } from '../../assets/images/icons/mirror.svg';
 
 import './style.scss';
 
@@ -42,17 +42,17 @@ export default function Category(props) {
       default:
         return <AppleIcon />;
     }
-  };
+  }
   function toggleSubMenu() {
     setIsShowSub(!isShowSub);
   }
   return (
-    <div className={isShowSub ? "category show-sub" : "category"}>
+    <div className={isShowSub ? 'category show-sub' : 'category'}>
       <div className="category__content">
         <div className="category__icon">{renderIcon(icon)}</div>
         <span className="category__name">{name}</span>
         <button className="expand" onClick={() => toggleSubMenu()}>
-          <ArrowRightIcon /> 
+          <ArrowRightIcon />
         </button>
       </div>
       <div className="category__sub">

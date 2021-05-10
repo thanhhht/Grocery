@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.scss';
-import logo from '../../images/logo.svg';
-import { ReactComponent as QuestionIcon } from '../../images/icons/question-circle.svg';
-import { ReactComponent as SearchIcon } from '../../images/icons/search.svg';
-import SearchField from '../../features/Search/components/SearchField';
+import logo from '../../assets/images/logo.svg';
+import { ReactComponent as QuestionIcon } from '../../assets/images/icons/question-circle.svg';
+import { ReactComponent as SearchIcon } from '../../assets/images/icons/search.svg';
+import SearchField from '../SearchField';
 
 export default function NavigationBar() {
   return (
